@@ -1,5 +1,15 @@
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+<script type="text/x-mathjax-config">
+ MathJax.Hub.Config({
+ tex2jax: {
+ inlineMath: [['$', '$'] ],
+ displayMath: [ ['$$','$$'], ["\\[","\\]"] ]
+ }
+ });
+</script>
 # Combination
-#はじめに
+#　はじめに
 
 組み合わせ$nCr$の計算を手でやるのが面倒なのでPCでやろうと思いましたが，意外と簡単に行かないことがわかりました．組み合わせの数（コンビネーション）を求めるプログラミングについてまとめてみました．
 単純に考えれば
